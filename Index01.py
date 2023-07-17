@@ -1,4 +1,5 @@
 def main(s):
+    s='parameter'
     """
     The string variable s is given. return the first character.
     Args:
@@ -6,4 +7,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return s [0]
+print(main("s"))
