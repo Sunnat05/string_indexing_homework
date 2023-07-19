@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s in "0123456789":
+        return s
+    else:
+        return -1
+print(main("="))
+    
