@@ -6,4 +6,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s)>n:
+        return s[:len(s)]
+    else:
+        return ("False")
+print(main("hfdgfdfdvvcx",8))
