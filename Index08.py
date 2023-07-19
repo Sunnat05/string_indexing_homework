@@ -1,14 +1,14 @@
 def main(s):
     if s[0]=="*":
-        return "*"
+        return 0
     if s[1]=="*":
-        return "*"
+        return 1
     if s[2]=="*":
-        return "*"
+        return 2
     if s[3]=="*":
-        return "*"
+        return 3
     if s[4]=="*":
-        return "*"
+        return 4
     else:
         return False
     """
@@ -18,5 +18,5 @@ def main(s):
     Returns:
         int: answer
     """
-print(main("re86D"))
+print(main("r*86D"))
         
