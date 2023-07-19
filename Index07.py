@@ -7,7 +7,7 @@ def main(s,n):
         str: answer
     """
     if len(s)>n:
-        return s[:len(s)]
+        return n
     else:
         return ("False")
 print(main("hfdgfdfdvvcx",8))
