@@ -7,8 +7,8 @@ def main(s):
         int: answer
     """
     if s in "0123456789":
-        return s
+        return int(s)
     else:
         return -1
-print(main("="))
+print(main("8"))
     
